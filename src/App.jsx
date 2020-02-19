@@ -23,6 +23,10 @@ class App extends React.Component {
     this.setState({postTotal: newPostTotal});
   }
 
+  // updatePoints(number) {
+  //   console.log(number);
+  // }
+
   render(){
     return (
       <div>

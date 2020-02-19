@@ -1,9 +1,18 @@
 import React from 'react'
 
 function Footer(props){
+  const footStyles = {
+    marginTop: "100%",
+    height: "50px",
+    backgroundColor: "#003249",
+    textAlign: "center",
+    padding: "5px",
+    color: "white"
+  }
   return (
-    <div>aesfsgers
-      </div>
+    <div style={footStyles}>
+    <p>hi</p>
+    </div>
     )
   }
 

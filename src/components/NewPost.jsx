@@ -7,11 +7,12 @@ function NewPost(props) {
   let _name = null;
   let _title = null;
   let _content = null;
+  let _points = null;
 
 
 function newPostSubmit(event) {
   event.preventDefault();
-  props.onPostSubmit({name: _name.value, title: _title.value, content: _content.value, id: v4()})
+  props.onPostSubmit({name: _name.value, title: _title.value, content: _content.value, id: v4(), points: 0})
   _name.value = '';
   _title.value = '';
   _content.value = '';
